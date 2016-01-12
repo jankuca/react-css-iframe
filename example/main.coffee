@@ -15,5 +15,6 @@ ExampleComponent = React.createFactory React.createClass
         While using custom scripts (look in the console)
         and css (this text is red, right?)!'
 
+
 mountElement = document.getElementById('app')
-ReactDOM.render(React.createElement(ExampleComponent, {}), mountElement)
+ReactDOM.render(ExampleComponent({}), mountElement)

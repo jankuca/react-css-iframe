@@ -9,7 +9,6 @@ ReactCssFrame = React.createClass
   getDefaultProps: ->
     style:
       border: 'none'
-    context: {}
     className: ''
     script: ''
     css: null
