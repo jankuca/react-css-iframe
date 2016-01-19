@@ -2,7 +2,7 @@ React = require 'react'
 ReactDOM = require 'react-dom'
 { div } = React.DOM
 Frame = React.createFactory require 'react-frame-component'
-require 'object-assign'
+assign = require 'object-assign'
 
 
 ReactCssFrame = React.createClass
@@ -42,7 +42,7 @@ ReactCssFrame = React.createClass
       doc.head.appendChild(link)
 
   render: ->
-    Frame Object.assign({}, @props, { ref: 'frame' }),
+    Frame assign({}, @props, { ref: 'frame' }),
       @props.children
 
 

@@ -11,8 +11,10 @@
   "author": "Vojta Tranta <vojta.tranta@gmail.com>, Petr Brzek",
   "dependencies": {
     "object-assign": "^3.0.0",
+    "react": ">0.14.0",
+    "react-dom": ">0.14.0",
     "react-frame": "^1.2.0",
-    "react-frame-component": "^0.4.1"
+    "react-frame-component": "git+ssh://git@github.com:vojtatranta/react-frame-component.git"
   },
   "devDependencies": {
     "coffee-coverage": "^0.7.0",
@@ -30,10 +32,6 @@
     "style-loader": "^0.13.0",
     "webpack": "^1.12.2",
     "webpack-dev-server": "^1.12.0"
-  },
-  "peerDependencies": {
-    "react": ">0.14.0",
-    "react-dom": ">0.14.0"
   },
   "engines": {
     "node": ">=4.0.0"
