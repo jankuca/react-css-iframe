@@ -30,6 +30,8 @@ ReactCssFrame = React.createClass
   _addScriptsAndCss: ->
     doc = @_getFrame().contentDocument
 
+    doc.body.className = 'iframe'
+
     if @props.script
       script = document.createElement('script')
       script.src = @props.script
