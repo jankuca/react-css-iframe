@@ -11,7 +11,7 @@
   "author": "Vojta Tranta <vojta.tranta@gmail.com>, Petr Brzek",
   "dependencies": {
     "object-assign": "^3.0.0",
-    "react-frame-component": "git+ssh://git@github.com:vojtatranta/react-frame-component.git"
+    "react-frame-component": "https://github.com/vojtatranta/react-frame-component.git"
   },
   "devDependencies": {
     "coffee-coverage": "^0.7.0",
